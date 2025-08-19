@@ -1,33 +1,34 @@
-# Introduction
+---
+marp: true
+title: Product Documentation — Acme Widget
+author: Anand S • 23f3004091@ds.study.iitm.ac.in
+theme: product-docs
+paginate: true
+description: Maintainable, multi-format product docs with Marp
+footer: '© 2025 Acme — 23f3004091@ds.study.iitm.ac.in'
+---
 
-Welcome to the Acme Product Documentation presentation.
+<!-- _class: lead -->
+<!-- _header: "**Acme Widget · Product Docs**" -->
+
+# Product Documentation  
+### Clean. Versioned. Multi-format.
+
+- Single source of truth (Markdown)
+- Export: HTML, PDF, PPTX, Images
+- Custom theme + directives
+- Math, code, and diagrams
 
 ---
 
-# Features
+## Quick Start
 
-- Feature 1: User-friendly interface
-- Feature 2: High performance
-- Feature 3: Scalable architecture
+```bash
+# Dev server with live preview
+npm run start
 
----
-
-# Performance Analysis
-
-The performance of our product can be described using the following complexity:
-
-$$
-T(n) = O(n \log n)
-$$
-
----
-
-# Background Image Slide
-
-![bg cover](images/bg-grid.png)
-
----
-
-# Conclusion
-
-Thank you for your attention! For more information, please contact us at 23f3004091@ds.study.iitm.ac.in.
+# Exports
+npm run build     # HTML
+npm run pdf       # PDF
+npm run pptx      # PowerPoint
+npm run images    # PNG images
