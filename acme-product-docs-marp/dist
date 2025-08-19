@@ -1,0 +1,3 @@
+The `dist` folder is intended to be empty initially, as it will be populated with exported files after running the build commands. Therefore, the contents of the `dist` folder will be as follows:
+
+# This folder will contain the exported files (HTML, PDF, PPTX, PNGs) after running the build commands.

@@ -1,0 +1,18 @@
+{
+  "name": "acme-product-docs-marp",
+  "version": "1.0.0",
+  "description": "A presentation project using Marp with a custom theme.",
+  "main": "slides.md",
+  "scripts": {
+    "start": "marp slides.md --watch --theme-set themes/product-docs.css",
+    "build": "marp slides.md --html --output dist/slides.html --theme-set themes/product-docs.css",
+    "pdf": "marp slides.md --pdf --output dist/slides.pdf --allow-local-files --theme-set themes/product-docs.css",
+    "pptx": "marp slides.md --pptx --output dist/slides.pptx --theme-set themes/product-docs.css",
+    "images": "marp slides.md --images --output dist/images/ --theme-set themes/product-docs.css"
+  },
+  "author": "23f3004091@ds.study.iitm.ac.in",
+  "license": "MIT",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^latest"
+  }
+}
