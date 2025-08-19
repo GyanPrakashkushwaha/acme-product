@@ -1,33 +1,66 @@
-# Introduction
+---
+marp: true
+title: Product Documentation
+author: 23f3004091@ds.study.iitm.ac.in
+theme: gaia
+paginate: true
+---
 
-Welcome to the Acme Product Documentation presentation.
+<style>
+/* Custom Theme */
+section {
+  background: #f0f4f8;
+  color: #333;
+}
+h1, h2 {
+  color: #005f73;
+}
+a {
+  color: #0a9396;
+}
+</style>
+
+# Product Documentation Presentation
+
+**A guide to our new software solution.**
 
 ---
 
-# Features
+## Slide with Background Image
 
-- Feature 1: User-friendly interface
-- Feature 2: High performance
-- Feature 3: Scalable architecture
+![bg cover](https://via.placeholder.com/800x600.png/005f73/FFFFFF?text=Replace+with+Your+Image)
 
 ---
 
-# Performance Analysis
+## Custom Styling with Directives
 
-The performance of our product can be described using the following complexity:
+This slide uses custom directives to change the background and text color. This is useful for highlighting important sections of your documentation.
 
+---
+
+## Algorithmic Complexity
+
+Understanding the performance of our algorithms is crucial. Here are some key complexity examples:
+
+**Inline Math:** The complexity of a linear search is $O(n)$.
+
+**Block Math:**
 $$
-T(n) = O(n \log n)
+\text{Binary Search Complexity} = O(\log n)
 $$
 
 ---
 
-# Background Image Slide
+## Code Examples
 
-![bg cover](images/bg-grid.png)
+Our software includes a robust API. Here’s a quick example in Python:
 
----
-
-# Conclusion
-
-Thank you for your attention! For more information, please contact us at 23f3004091@ds.study.iitm.ac.in.
+```python
+def get_data(api_key):
+    """
+    Fetches data from the API.
+    """
+    if not api_key:
+        return {"error": "API key is missing"}
+    # ... implementation ...
+    return {"data": "Sample data"}
