@@ -63,4 +63,8 @@ def get_data(api_key):
     if not api_key:
         return {"error": "API key is missing"}
     # ... implementation ...
+<<<<<<< HEAD
     return {"data": "Sample data"}
+=======
+    return {"data": "Sample data"}
+>>>>>>> eb03632221a798708f0737888f2a0e49d275e5c7
